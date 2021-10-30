@@ -16,7 +16,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Hue Hue Hue",
+              "text": "This is the change",
               "color_scheme": "accent-2",
               "link": ""
             }
