@@ -73,8 +73,25 @@
       },
       "announcementKT": {
         "type": "announcementKT",
+        "blocks": {
+          "91783f0e-416d-4b34-88c7-74cb90853aa6": {
+            "type": "announcement",
+            "settings": {
+              "text": "Hey"
+            }
+          },
+          "28c231c2-8346-47be-8f8c-5159ee325dd6": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome text"
+            }
+          }
+        },
+        "block_order": [
+          "91783f0e-416d-4b34-88c7-74cb90853aa6",
+          "28c231c2-8346-47be-8f8c-5159ee325dd6"
+        ],
         "settings": {
-          "text": "This is announcemement."
         }
       }
     },
