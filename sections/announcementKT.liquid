@@ -1,7 +1,16 @@
-<div class="announcementKT-bar"><p class="announcementKT-bar-message">Hello Duniya!</p></div>
+<div class="announcementKT-bar"><p class="announcementKT-bar-message">{{block.settings.text}}</p></div>
 
 {% schema %}
 {
-    "name": "KT's announcement bar"
+    "name": "KT's announcement bar",
+    "max_block": 12,
+    "blocks": [
+    {
+        "type": "text",
+        "id": "text",
+        "default": "KT default text",
+    }
+
+    ]
 }
 {% endschema %}
