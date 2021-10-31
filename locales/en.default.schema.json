@@ -219,7 +219,7 @@
   },
   "sections": {
     "announcement-bar": {
-      "name": "Announcement bar by KT",
+      "name": "Announcement bar",
       "blocks": {
         "announcement": {
           "name": "Announcement",
@@ -228,7 +228,7 @@
               "label": "Text by KT"
             },
             "color_scheme": {
-              "label": "Colour scheme By KT",
+              "label": "Colour scheme",
               "options__1": {
                 "label": "Background 1"
               },
