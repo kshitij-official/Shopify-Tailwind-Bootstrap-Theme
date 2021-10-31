@@ -1,0 +1,16 @@
+/*KT ANNOUNCEMENT BAR*/
+.announcementKT-bar{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 800;
+    z-index: 4;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    
+  }
+
+  .announcementKT-bar-message{
+    margin: 0;
+  }
+  

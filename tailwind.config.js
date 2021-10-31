@@ -8,4 +8,10 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+},
+module.exports = {
+  purge: {
+    enabled: true,
+    content: ["./**/*.liquid"],
+  },
+};
