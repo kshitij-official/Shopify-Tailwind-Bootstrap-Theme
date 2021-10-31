@@ -1,19 +1,25 @@
-{% if section.settings.text != blank %}
-<div class="announcementKT-bar"><p class="announcementKT-bar-message">{{section.settings.text}}</p></div>
+{% if block.settings.text != blank %}
+<div class="announcementKT-bar"><p class="announcementKT-bar-message">{{block.settings.text}}</p></div>
 
 {% endif%}
 
 {% schema %}
 {
     "name": "KT's announcement bar",
-    "settings": [
-    {
-        "type": "text",
-        "id": "text",
-        "default": "Welcome text",
-        "label": "Enter your data here"
-    }
-        
+    "blocks": [
+            {
+                    "name": "blockname",
+                    "settings": [
+                        {
+                            "type": "text",
+                            "id": "text",
+                            "default": "Welcome text",
+                            "label": "Enter your data here"
+                        }
+                        
+                    ]
+            }
     ]
+    
 }
 {% endschema %}
