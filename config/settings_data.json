@@ -70,6 +70,12 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "announcementKT": {
+        "type": "announcementKT",
+        "settings": {
+          "text": "Hello this is my first ever schema section! I'm so happy that I did it on my own using the shopify reference docs."
+        }
       }
     },
     "content_for_index": [
