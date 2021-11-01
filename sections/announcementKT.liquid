@@ -1,6 +1,6 @@
 {{ 'KTstyle.css' | asset_url | stylesheet_tag }}
 
-<div style="position: sticky; top: 0;" class="announcementKT-bar {% if section.settings.id_to_access_checkbox == true %} announcementKT-bar-sticky{% endif %} "><p class="announcementKT-bar-message">hellos</p></div>
+<div style="position: sticky; top: 0;" class="announcementKT-bar {% if section.settings.id_to_access_checkbox %} conductiveMammal{% endif %} "><p class="announcementKT-bar-message">hellos</p></div>
 
 {% schema %}
 {
@@ -19,7 +19,7 @@
             "type": "checkbox",
             "id": "unique_id_to_access_setting_for_use",
             "label": "This is the label text in checkbox sidebar setting",
-            "info": "This is the complete info in this checkbox sidebar setting, we also set a defualt true of false value. [Learn More About Inserting Links](https://shopify.dev/themes/architecture/settings/sidebar-settings)",
+            "info": "This is the complete info in this checkbox sidebar setting, we also set a defualt true or false value. [Learn More About Inserting Links](https://shopify.dev/themes/architecture/settings/sidebar-settings)",
             "default": true
         },
         {
@@ -30,6 +30,5 @@
             "default": true
         }
     ]
-    
 }
 {% endschema %}

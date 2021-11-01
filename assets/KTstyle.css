@@ -15,11 +15,6 @@
     margin: 0;
   }
 
-  .announcementKT-bar-sticky{
-    position: sticky;
-    top: 3rem;
-  }
-
   .conductiveMammal{
     position: sticky;
     top: 0rem;
