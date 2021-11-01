@@ -74,6 +74,7 @@
       "announcementKT": {
         "type": "announcementKT",
         "settings": {
+          "unique_id_to_access_setting_for_use": false
         }
       }
     },
