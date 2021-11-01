@@ -1,9 +1,21 @@
 {{ 'KTstyle.css' | asset_url | stylesheet_tag }}
 
+
+
 <div class="announcementKT-bar {% if section.settings.id_to_access_checkbox %} conductiveMammal {% endif %}"> <p class="announcementKT-bar-message">hello</p></div>
 
-
-
+<style>
+    {% if section.settings.id_to_access_checkbox %} 
+    
+    .shopify-section-announcementKT{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+    
+    {% endif %}
+</style>
 
 {% schema %}
 {
