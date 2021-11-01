@@ -19,4 +19,9 @@
     position: sticky;
     top: 3rem;
   }
-  
+
+  #shopify-section-announcementKT{
+    position: sticky;
+    top: 0rem;
+    z-index: 99;
+  }
