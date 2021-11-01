@@ -1,8 +1,6 @@
 {{ 'KTstyle.css' | asset_url | stylesheet_tag }}
 
-{% if section.settings.text != blank %}
-<div class="announcementKT-bar {% if section.settings.id_to_access_checkbox == true %} announcementKT-bar-sticky{% endif %} "><p class="announcementKT-bar-message">hellos</p></div>
-{% endif%}
+<div style="position: sticky; top: 0;" class="announcementKT-bar {% if section.settings.id_to_access_checkbox == true %} announcementKT-bar-sticky{% endif %} "><p class="announcementKT-bar-message">hellos</p></div>
 
 {% schema %}
 {
