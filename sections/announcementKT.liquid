@@ -1,6 +1,6 @@
 {{ 'KTstyle.css' | asset_url | stylesheet_tag }}
 
-<div style="position: sticky; top: 0;" class="announcementKT-bar" class=" {% if section.settings.id_to_access_checkbox %} conductiveMammal{% endif %} " > <p class="announcementKT-bar-message">hellos</p></div>
+<div class="announcementKT-bar" class=" {% if section.settings.id_to_access_checkbox %} conductiveMammal{% endif %} " > <p class="announcementKT-bar-message">hellos</p></div>
 
 {% schema %}
 {
@@ -27,7 +27,7 @@
             "id": "id_to_access_checkbox",
             "label": "Basic Input Checkbox Label",
             "info": "This is used to make this bar sticky.",
-            "default": true
+            "default": false
         }
     ]
 }
