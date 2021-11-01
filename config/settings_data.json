@@ -75,7 +75,7 @@
         "type": "announcementKT",
         "settings": {
           "unique_id_to_access_setting_for_use": false,
-          "id_to_access_checkbox": false
+          "id_to_access_checkbox": true
         }
       }
     },
