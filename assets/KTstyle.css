@@ -13,4 +13,8 @@
   .announcementKT-bar-message{
     margin: 0;
   }
+
+  .announcementKT-bar-sticky{
+    position: fixed;
+  }
   

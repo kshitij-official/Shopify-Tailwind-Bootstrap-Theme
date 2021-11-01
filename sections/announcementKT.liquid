@@ -1,7 +1,7 @@
 {{ 'KTstyle.css' | asset_url | stylesheet_tag }}
 
 {% if section.settings.text != blank %}
-<div class="announcementKT-bar"><p class="announcementKT-bar-message">hellos</p></div>
+<div class="announcementKT-bar {% if section.settings.id_to_access_checkbox == true %} announcementKT-bar-sticky{% endif %} "><p class="announcementKT-bar-message">hellos</p></div>
 {% endif%}
 
 {% schema %}
@@ -27,6 +27,7 @@
             "type": "checkbox",
             "id": "id_to_access_checkbox",
             "label": "Basic Input Checkbox Label",
+            "info": "This is used to make this bar sticky.",
             "default": true
         }
     ]
