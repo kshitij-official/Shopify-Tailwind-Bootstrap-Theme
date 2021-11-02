@@ -73,6 +73,21 @@
       },
       "announcementKT": {
         "type": "announcementKT",
+        "blocks": {
+          "ab66d228-e418-4394-a916-60d0a14f1848": {
+            "type": "typeForprsnlRfrnc",
+            "settings": {
+              "This_is_label_of_number_setting_1": 5,
+              "this_is_radio_id": "left",
+              "Range_id": 26,
+              "id_for_select": "USA",
+              "id_for_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "ab66d228-e418-4394-a916-60d0a14f1848"
+        ],
         "settings": {
           "unique_id_to_access_setting_for_use": false,
           "id_to_access_checkbox": false
