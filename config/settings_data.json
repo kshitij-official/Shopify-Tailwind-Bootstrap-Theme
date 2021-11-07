@@ -81,12 +81,52 @@
               "this_is_radio_id": "left",
               "Range_id": 26,
               "id_for_select": "USA",
-              "id_for_text": ""
+              "id_for_text": "",
+              "id_article": "",
+              "id_blog": "",
+              "id_collection": "",
+              "id_color": "",
+              "background": "linear-gradient(#ffffff, #000000)",
+              "id_font_picker": "helvetica_n4",
+              "id_product": "",
+              "id_page": "",
+              "id_list_list": "",
+              "id_video_url": "",
+              "id_richtext": "",
+              "id_url": "",
+              "id_html": "",
+              "id_liquid": ""
+            }
+          },
+          "99b7c83f-1dd8-4b92-9e4a-4de00f73d7fc": {
+            "type": "typeForprsnlRfrnc",
+            "disabled": true,
+            "settings": {
+              "This_is_label_of_number_setting_1": 5,
+              "this_is_radio_id": "left",
+              "Range_id": 26,
+              "id_for_select": "USA",
+              "id_for_text": "default text value",
+              "id_article": "",
+              "id_blog": "",
+              "id_collection": "",
+              "id_color": "",
+              "background": "linear-gradient(#ffffff, #000000)",
+              "id_font_picker": "helvetica_n4",
+              "id_product": "",
+              "id_page": "",
+              "id_list_list": "",
+              "id_video_url": "",
+              "id_richtext": "",
+              "id_url": "",
+              "id_html": "",
+              "id_liquid": ""
             }
           }
         },
         "block_order": [
-          "ab66d228-e418-4394-a916-60d0a14f1848"
+          "ab66d228-e418-4394-a916-60d0a14f1848",
+          "99b7c83f-1dd8-4b92-9e4a-4de00f73d7fc"
         ],
         "settings": {
           "unique_id_to_access_setting_for_use": false,
