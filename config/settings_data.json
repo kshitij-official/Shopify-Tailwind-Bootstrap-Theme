@@ -70,6 +70,19 @@
           "enable_language_selector": true,
           "payment_enable": true
         }
+      },
+      "announcementKT": {
+        "type": "announcementKT",
+        "settings": {
+          "unique_id_to_access_setting_for_use": true,
+          "id_to_access_checkbox": false
+        }
+      },
+      "newSection": {
+        "type": "newSection",
+        "settings": {
+          "text_block": "This text is being entered into the new section."
+        }
       }
     },
     "content_for_index": [
