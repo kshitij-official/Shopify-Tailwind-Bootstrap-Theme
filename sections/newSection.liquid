@@ -1,0 +1,17 @@
+<div>
+    <p>{{ section.settings.text_block}}</p>
+</div>
+
+{% schema %}
+{
+    "name": "new-custom-section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "text_block",
+            "default": "This is a placeholder text",
+            "label": "Text Block"
+        }
+    ]
+}
+{% endschema %}
